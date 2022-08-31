@@ -1,0 +1,26 @@
+main{
+    margin-top: 10vh;
+    margin-left: 1vh;
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    h2{
+        color: brown;
+        text-decoration: underline solid black;
+        &:hover{
+            text-decoration: line-through solid white;
+        }
+    }
+    p{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: larger;
+    }
+    img{
+        width: 50vh;
+        height: 50vh;
+    }
+    button{
+        width: 10vh;
+        height: 5vh;
+    }
+}

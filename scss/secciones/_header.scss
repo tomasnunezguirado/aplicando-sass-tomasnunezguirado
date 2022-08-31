@@ -1,0 +1,18 @@
+header{
+    background-color: $colorPrincipal;
+    h1{
+        color: $uva;
+    }
+    nav{
+        color: $rojoMedio;
+        ul{
+            color: $menta;
+            display: flex;
+            justify-content: space-evenly;
+            
+            il{
+                background-color: aquamarine;
+            }
+        }
+    }
+}
